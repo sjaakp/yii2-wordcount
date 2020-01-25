@@ -1,0 +1,22 @@
+{
+    "name": "sjaakp/yii2-wordcount",
+    "description": "Word count behavior for Yii2.",
+    "keywords": ["yii", "yii2", "extension", "behavior", "word count"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sjaak Priester",
+            "email": "sjaak@sjaakpriester.nl",
+            "homepage": "https://sjaakpriester.nl"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "sjaakp\\wordcount\\": ""
+        }
+    }
+}
